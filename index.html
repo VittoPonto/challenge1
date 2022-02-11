@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">código secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="" id="mensaje">
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <button id="encripta" type="submit" class="btn">encriptar!</button>
+        <button id="desencripta" type="submit" class="btn">desencriptar!</button>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptada:</h2>
+      <label class="text-input" type="text" name="input-texto" id="msg"> </label>
+      <button class="btn" type="submit" id="btn-copy">copiar</button>
+    </section>
+  </main>
+
+  <script src="encriptar.js"></script>
+  <script src="desencriptar.js"></script>
+</body>
+</html>
